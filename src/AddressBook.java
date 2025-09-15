@@ -31,7 +31,6 @@ public class AddressBook {
         BuddyInfo buddy = new BuddyInfo("Homer", "742 Evergreen Terrace", "555-1234");
         book.addBuddy(buddy);
         book.removeBuddy(0);
-        System.out.println("Address Book");
     }
 
 }
