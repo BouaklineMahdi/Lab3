@@ -4,7 +4,7 @@ import java.util.List;
 public class AddressBook {
 
     // A collection to hold BuddyInfo objects
-    private List<BuddyInfo> buddies;
+    private ArrayList<BuddyInfo> buddies;
 
     // Constructor initializes the collection
     public AddressBook() {
@@ -27,8 +27,8 @@ public class AddressBook {
 
     // Example main method to test functionality
     public static void main(String[] args) {
-        AddressBook book = new AddressBook();
         BuddyInfo buddy = new BuddyInfo("Homer", "742 Evergreen Terrace", "555-1234");
+        AddressBook book = new AddressBook();
         book.addBuddy(buddy);
         book.removeBuddy(0);
     }

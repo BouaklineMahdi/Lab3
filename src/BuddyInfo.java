@@ -4,6 +4,7 @@ public class BuddyInfo {
     private String address;
     private String phoneNumber;
 
+    // Comment to show a change.
     public BuddyInfo(String name, String address, String phoneNumber) {
         this.name = name;
         this.address = address;
