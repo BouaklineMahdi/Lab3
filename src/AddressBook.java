@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// Comment for lab3
+
 public class AddressBook {
 
     // A collection to hold BuddyInfo objects
