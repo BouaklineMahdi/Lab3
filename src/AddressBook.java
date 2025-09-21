@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 
 // Comment for lab3
 
@@ -20,6 +19,10 @@ public class AddressBook {
         }
     }
 
+    // New method for lab 3
+    public void sayHello() {
+        System.out.println("Hi!");
+    }
     // Removes a BuddyInfo at a specific index
     public void removeBuddy(int index) {
         if (index >= 0 && index < buddies.size()) {
